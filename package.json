@@ -1,0 +1,23 @@
+{
+  "name": "ember-cli-heroku-oauth",
+  "version": "0.0.1",
+  "description": "Add Heroku OAuth in an ember-cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "before": "serve-files-middleware"
+  },
+  "author": "Damien Mathieu",
+  "license": "MIT",
+  "dependencies": {
+    "heroku-bouncer": "^4.0.1",
+    "dotenv": "0.5.1",
+    "client-sessions": "~0.6.0"
+  },
+  "devDependencies": {}
+}
